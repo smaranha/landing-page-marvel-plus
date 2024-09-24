@@ -190,7 +190,7 @@ body {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        padding: 5%;
+        padding: 5% 0 5% 0;
         text-align: center;
         height: fit-content;
     }
@@ -200,12 +200,12 @@ body {
     }    
 
     .dispositivos {
-        padding: 5%;
+        padding: 5% 0 5% 0;
     }
 
     .dispositivos__lista {
         display: flex;
-        padding: 5%;
+        padding: 5% 0 5% 0;
         flex-direction: column;
     }
 }
