@@ -3,7 +3,7 @@
 ![Captura de Tela 2024-09-24 às 17 41 47](https://github.com/user-attachments/assets/f2fde3c7-a21a-405a-8764-b3b29541dde3)
 
 <h2>Sobre</h2>
-<p>Projeto realizado com vídeo tutorial da Rafaella Ballerine, no qual foi criada uma landing page para um bot de relacionamentos.</p>
+<p>Projeto realizado com cursos de HTML e CSS da Alura, no qual foi criada uma landing page para uma plataforma chamada Marvel+.</p>
 
 ## Tecnologias
 <div>
