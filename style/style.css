@@ -177,3 +177,35 @@ body {
     color: var(--cor-de-fundo);
     border: 2px solid var(--cor-botao);
 }
+
+@media (max-width: 1200px) {
+
+    .principal {
+        background-image: url("../assets/Background_mobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .container {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        text-align: center;
+        height: fit-content;
+    }
+
+    .container__caixa {
+        margin-top: 40em;
+    }    
+
+    .dispositivos {
+        padding: 5%;
+    }
+
+    .dispositivos__lista {
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+    }
+}
