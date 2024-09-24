@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #ffffff;
+    --cor-secundaria: #C0C0C0;
+    --cor-botao: #ED1D24;
+    --cor-fundo: #00030c;
+    --fonte-titulos: "Bebas Neue", sans-serif;
+    --fonte-conteudo: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-conteudo);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__titulo {
+    font-family: var(--fonte-titulos);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.75rem;
+
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    color: var(--cor-principal);
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    font-family: var(--fonte-conteudo);
+    margin-bottom: 1em;
+}
+
+.segundo__botao {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--cor-principal);
+}
+
+.container__aviso {
+    font-size: 0.75rem;
+    color: var(--cor-secundaria);
+
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.container__descricao {
+    padding: 2em;
+}   
+
+.descricao__titulo {
+    font-family: var(--fonte-titulos);
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cor-secundaria);
+}
+
+.secundario__botao {
+    display: inline-block;
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-family: var(--fonte-titulos);
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 1.5rem;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    margin-bottom: 1em;
+    width: 10%;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-left: 1em;
+    color: var(--cor-principal);
+}
+
+.rodape__texto {
+    font-size: 0.75rem;
+    margin: 1em 0;
+    color: var(--cor-secundaria);
+}
+
+.lista__link a:hover {
+    color: var(--cor-botao);
+}
+
+.lista__link a:active {
+    color: var(--cor-botao);
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+}
+
+.segundo__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-botao);
+}
